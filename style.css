@@ -92,3 +92,16 @@ li:nth-child(even) {
     left: 25vw;
     font-size: 10em;
   }
+
+  .inputcontainer {
+    border: 1px solid black;
+    display: inline-block;
+    margin: 2vw 2vh;
+    padding: 2vw 2vh;
+  }
+  
+  @media screen and (max-width: 676px) {
+   .green {
+    color: brown;
+   }
+  }
