@@ -1,0 +1,16 @@
+.boxcontainer {
+    display: flex;
+}
+
+.boxcontainer>div {
+    width: 33.3%;
+    height: 150px;
+    background-color: aqua;
+    margin: 4px
+}
+
+#box {
+    width: calc(100% - 6px);
+    height: 609px;
+    background-color: aqua;
+}
