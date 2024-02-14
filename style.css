@@ -4,13 +4,49 @@
 
 .boxcontainer>div {
     width: 33.3%;
-    height: 150px;
+    height: 19vh;
     background-color: aqua;
     margin: 4px
 }
 
 #box {
     width: calc(100% - 6px);
-    height: 609px;
+    height: 77vh;
     background-color: aqua;
+}
+
+.arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 10rem solid transparent;
+    border-right: 10rem solid transparent;
+    border-bottom: 30rem solid rgb(120, 79, 50);
+    position: absolute;
+    bottom: 2vh;
+    right: 1rem;
+    z-index: 1;
+}
+
+.boxcontainer2 {
+    display: flex;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 10rem solid transparent;
+    border-right: 10rem solid transparent;
+    border-bottom: 25rem solid rgb(136, 149, 42);
+    position: absolute;
+    bottom: 2vh;
+    right: 15rem;
+    z-index: 0;
+}
+
+.fa-solid {
+    color: rgb(232, 232, 55);
+    position: absolute;
+    top: 5vh;
+    left: 10vw;
+    font-size: 15em;
 }
