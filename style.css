@@ -43,10 +43,52 @@
     z-index: 0;
 }
 
-.fa-solid {
+.Sun {
     color: rgb(232, 232, 55);
     position: absolute;
     top: 5vh;
-    left: 10vw;
+    left: 5vw;
     font-size: 15em;
 }
+
+.people {
+    color: rgb(24, 46, 174);
+    position: absolute;
+    bottom: 2vh;
+    left: 1vw;
+    font-size: 7em;
+    display: flex;
+    list-style: none;
+    padding: 0%;
+    margin: 0;
+    z-index: 1;
+}
+
+li:nth-child(even) {
+    color: salmon;
+  }
+
+  .fa-house {
+    color: brown;
+    position: absolute;
+    bottom: 2vh;
+    left: 13vw;
+    font-size: 20em;
+    z-index: 0;
+  }
+
+  .white {
+    color: white;
+    position: absolute;
+    top: 2vh;
+    left: 35vw;
+    font-size: 5em;
+  }
+
+  .green {
+    color: greenyellow;
+    position: absolute;
+    top: 37vh;
+    left: 25vw;
+    font-size: 10em;
+  }
