@@ -100,8 +100,45 @@ li:nth-child(even) {
     padding: 2vw 2vh;
   }
   
-  @media screen and (max-width: 676px) {
+  @media(max-width: 480px) {
    .green {
-    color: brown;
+    font-size: 3em;
+   }
+   .Sun {
+    font-size: 5em;
+   }
+   .white {
+    font-size: 2em;
+    top: 5vh;
+   }
+   .fa-house {
+    font-size: 6em;
+    bottom: -1vh;
+   }
+   .people {
+    font-size: 2em;
+    bottom: -2vh;
+   }
+   .arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 5rem solid transparent;
+    border-right: 5rem solid transparent;
+    border-bottom: 15rem solid rgb(120, 79, 50);
+    position: absolute;
+    bottom: -1vh;
+    right: 1rem;
+    z-index: 1;
+   }
+   .triangle {
+    width: 0;
+    height: 0;
+    border-left: 5rem solid transparent;
+    border-right: 5rem solid transparent;
+    border-bottom: 10rem solid rgb(136, 149, 42);
+    position: absolute;
+    bottom: -1vh;
+    right: 9rem;
+    z-index: 0;
    }
   }
